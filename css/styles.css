@@ -1,0 +1,131 @@
+#title{
+    color: #fff;
+    background-color: #ff4c68;
+    
+}
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+   
+}
+body{
+    font-family: "montserat-Black";
+}
+
+.row h1{
+    font-family: "montserat-Black";
+    color: white;
+    font-size: 3rem;
+    line-height: 1.5;
+    text-align: center;
+}
+.container-fluid{
+    padding: 4%  ;
+    
+}
+.btnn {
+    /* margin-left: 29px; */
+    text-align: center;
+    
+    
+}
+li{
+    font-size: 20px;
+    font-weight: light;
+    padding: 12px;
+}
+.title_image{
+    width: 35%;
+    transform: rotate(25deg);
+}
+#features{
+    padding: 10% 15%;
+    
+}
+.feature1{
+    text-align: center;
+}
+.feature1 p{
+    padding: 8px;
+    
+}
+.feature_icon{
+    color:#ef8172;
+}
+.feature_icon:hover{
+    color:#ff4c68 ;
+}
+
+
+#testimonials{
+    background-color: #ef8172;
+    padding: 3% 15%;
+    text-align: center;
+}
+#testimonials img{
+    width: 20%;
+    padding: 1%;
+    
+    border-radius: 100%;
+}
+#testimonials h2{
+    font-family: "montserat-Black";
+    color: white;
+    font-size: 3rem;
+    line-height: 1;
+}
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+    text-align: center;
+}
+#press img{
+    width: 15%;
+    padding: 2%;
+    
+   
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+#pricing{
+    padding: 100px;
+}
+#pricing h2{
+font-size: 3rem;
+}
+.card{
+    text-align: center;
+}
+
+@media(max-width:1000px)
+{
+    .title_image{
+        transform: rotate(25deg);
+      
+    }
+    .col-lg-6{
+        text-align: center;
+    }
+}
+#cta{
+    background-color: #ff4c68;
+    padding:9% 15%;
+    text-align: center;
+}
+#cta h3{
+    color: white;
+    font-size: 3rem;
+}
+#footer{
+    color: black;
+    background-color: white;
+    padding: 3% 10%;
+    text-align: center;
+}
+.footerico{
+   padding: 25px;
+}
